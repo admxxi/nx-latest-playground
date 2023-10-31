@@ -1,0 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}

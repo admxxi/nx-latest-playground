@@ -10,7 +10,7 @@ const StyledLibraryOctober = styled.div`
 export function WoodAnoa(props: LibraryOctoberProps) {
   return (
     <StyledLibraryOctober>
-      <h1>Wood Anoa Component</h1>
+      <h1>Testing Wood Anoa Component</h1>
     </StyledLibraryOctober>
   );
 }

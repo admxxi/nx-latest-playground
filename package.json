@@ -5,12 +5,22 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "@mui/x-data-grid": "^6.17.0",
     "@swc/helpers": "~0.5.2",
+    "@types/lodash-es": "^4.17.10",
+    "axios": "^1.6.0",
+    "jotai": "^2.5.0",
+    "lodash-es": "^4.17.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
+    "react-query": "^3.39.3",
     "react-router-dom": "6.11.2",
-    "styled-components": "5.3.6"
+    "styled-components": "5.3.6",
+    "zustand": "^4.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",

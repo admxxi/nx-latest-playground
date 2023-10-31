@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx17/campaigns": ["apps/campaigns/src/index.ts"],
-      "@nx17/library-october": ["libs/library-october/src/index.ts"]
+      "@nx17/library-october": ["libs/library-october/src/index.ts"],
+      "@nx17/props-handler": ["libs/props-handler/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
