@@ -18,6 +18,16 @@ export default defineConfig({
 
   plugins: [react(), nxViteTsPaths()],
 
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`
+      }
+    }
+  },
+
   // Uncomment this if you are using workers.
   // worker: {
   //  plugins: [ nxViteTsPaths() ],
